@@ -22,6 +22,11 @@
             "apps": [{"appId": "btownRidesProduction3495803840530"}, {"appId": "btownRidesDevelopment43598903845902UFSF"}]
             },
             {
+              "user":"coderboy",
+              "pass":"owenGray25646",
+              "apps": [{"appId": "btownRidesDevelopment43598903845902UFSF"}]
+              },
+            {
             "user":"cofounder",
             "pass":"pizzahut24",
             "readOnly": "true",
