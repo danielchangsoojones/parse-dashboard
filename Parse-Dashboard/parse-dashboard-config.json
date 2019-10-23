@@ -1,12 +1,31 @@
 {
   "apps": [{
-    "serverURL": "http://localhost:1338/parse",
-    "appId": "hello",
-    "masterKey": "world",
-    "appName": "",
-    "iconName": "",
-    "primaryBackgroundColor": "",
-    "secondaryBackgroundColor": ""
-  }],
+           "serverURL": "https://btown-rides-production.herokuapp.com/parse",
+           "appId": "btownRidesProduction3495803840530",
+           "masterKey": "btownRidesProductionMasterKey493085938450FSDFK",
+           "readOnlyMasterKey": "Hiiii",
+           "appName": "BTown Rides",
+           "iconName": "productionLogo.png",
+           "production": "true"
+           },
+           {
+           "serverURL": "https://btown-rides-development.herokuapp.com/parse",
+           "appId": "btownRidesDevelopment43598903845902UFSF",
+           "masterKey": "btownRidesDevelopmentMasterKey424DFHSKSKL",
+           "readOnlyMasterKey": "Hiiii",
+           "appName": "BTown Rides Development",
+           "iconName": "development.jpg"
+           }],
+  "users": [{
+            "user":"messyjones",
+            "pass":"bananaMan24675",
+            "apps": [{"appId": "btownRidesProduction3495803840530"}, {"appId": "btownRidesDevelopment43598903845902UFSF"}]
+            },
+            {
+            "user":"cofounder",
+            "pass":"pizzahut24",
+            "readOnly": "true",
+            "apps": [{"appId": "btownRidesProduction3495803840530", "readOnly": "true"}]
+            }],
   "iconsFolder": "icons"
 }
